@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home | CodeNagar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container d-flex flex-wrap justify-content-between gap-2 py-2">
+            <div><i class="bi bi-envelope"></i> hello@codenagar.com &nbsp; <i class="bi bi-telephone"></i> +880
+                1700-000000</div>
+            <div class="d-flex gap-3 align-items-center"><span id="datetime"></span>
+                <a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-twitter-x"></i></a><a
+                    href="#"><i class="bi bi-youtube"></i></a>
+                <a href="contact.html">Login / Register</a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg main-nav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="bi bi-braces"></i> CodeNagar</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#m" aria-label="Menu"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="m">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Login / Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="hero" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="https://picsum.photos/seed/hero0/1600/600" alt="">
+                    <div class="carousel-caption">
+                        <h2>Software that fits how your business works</h2><a href="contact.html"
+                            class="btn btn-warning btn-lg">Get a free quote</a>
+                    </div>
+                </div>
+                <div class="carousel-item"><img src="https://picsum.photos/seed/hero1/1600/600" alt="">
+                    <div class="carousel-caption">
+                        <h2>Mobile apps your customers will keep</h2><a href="contact.html"
+                            class="btn btn-warning btn-lg">See our apps</a>
+                    </div>
+                </div>
+                <div class="carousel-item"><img src="https://picsum.photos/seed/hero2/1600/600" alt="">
+                    <div class="carousel-caption">
+                        <h2>Design, build, launch, support</h2><a href="contact.html"
+                            class="btn btn-warning btn-lg">Talk to us</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-bs-target="#hero" data-bs-slide="prev"
+                aria-label="Previous"><span class="carousel-control-prev-icon"></span></button><button
+                class="carousel-control-next" data-bs-target="#hero" data-bs-slide="next" aria-label="Next"><span
+                    class="carousel-control-next-icon"></span></button>
+        </div>
+        <section class="container sec">
+            <h2>What we build</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 p-3"><i class="bi bi-code-slash icon"></i>
+                        <h5>Web Development</h5>
+                        <p>Fast, secure websites and web apps built with Laravel, React and Node.js.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 p-3"><i class="bi bi-phone icon"></i>
+                        <h5>Mobile Apps</h5>
+                        <p>Android and iOS apps that work well on slow connections.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 p-3"><i class="bi bi-palette icon"></i>
+                        <h5>UI/UX Design</h5>
+                        <p>Clear interfaces tested with real users.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 p-3"><i class="bi bi-cloud icon"></i>
+                        <h5>Cloud & Support</h5>
+                        <p>Hosting, backups and monitoring after launch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="band">
+            <div class="container sec">
+                <h2>Featured projects</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 proj web">
+                        <div class="card h-100"><img src="https://picsum.photos/seed/p1/600/380" class="card-img-top"
+                                alt="Shop Bazar">
+                            <div class="card-body"><span class="badge text-bg-warning">Web Apps</span>
+                                <h5 class="mt-2">Shop Bazar</h5>
+                                <p>A custom web apps project delivered for a local client.</p><a
+                                    href="project-detail.html" class="stretched-link">View details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 proj mob">
+                        <div class="card h-100"><img src="https://picsum.photos/seed/p2/600/380" class="card-img-top"
+                                alt="Rider Go">
+                            <div class="card-body"><span class="badge text-bg-warning">Mobile Apps</span>
+                                <h5 class="mt-2">Rider Go</h5>
+                                <p>A custom mobile apps project delivered for a local client.</p><a
+                                    href="project-detail.html" class="stretched-link">View details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 proj web">
+                        <div class="card h-100"><img src="https://picsum.photos/seed/p3/600/380" class="card-img-top"
+                                alt="ClinicDesk">
+                            <div class="card-body"><span class="badge text-bg-warning">Web Apps</span>
+                                <h5 class="mt-2">ClinicDesk</h5>
+                                <p>A custom web apps project delivered for a local client.</p><a
+                                    href="project-detail.html" class="stretched-link">View details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container sec">
+            <h2>What clients say</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card p-4 h-100">
+                        <p>&ldquo;They delivered our ordering app two weeks early and answered every question the same
+                            day.&rdquo;</p><strong>Farhana R., Shop Bazar</strong>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-4 h-100">
+                        <p>&ldquo;Clear estimates, no surprises. Our clinic system has run without downtime for a
+                            year.&rdquo;</p><strong>Dr. Imran H., ClinicDesk</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="band">
+            <div class="container sec">
+                <h2>Technology stack</h2>
+                <div class="row text-center g-3">
+                    <div class="col-4 col-md-2"><i class="bi bi-filetype-php icon"></i>
+                        <div>Laravel</div>
+                    </div>
+                    <div class="col-4 col-md-2"><i class="bi bi-filetype-jsx icon"></i>
+                        <div>React</div>
+                    </div>
+                    <div class="col-4 col-md-2"><i class="bi bi-filetype-js icon"></i>
+                        <div>Node.js</div>
+                    </div>
+                    <div class="col-4 col-md-2"><i class="bi bi-android2 icon"></i>
+                        <div>Android</div>
+                    </div>
+                    <div class="col-4 col-md-2"><i class="bi bi-database icon"></i>
+                        <div>MySQL</div>
+                    </div>
+                    <div class="col-4 col-md-2"><i class="bi bi-filetype-html icon"></i>
+                        <div>HTML5</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bigfoot">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h5>CodeNagar</h5>
+                    <p>We build web and mobile software for businesses in Bangladesh and abroad.</p>
+                    <p class="mb-0"><i class="bi bi-geo-alt"></i> Mirpur 10, Dhaka 1216<br><i
+                            class="bi bi-envelope"></i> hello@codenagar.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Newsletter</h5>
+                    <form class="input-group mb-3" action="#"><input type="email" class="form-control"
+                            placeholder="Your email" required aria-label="Email"><button
+                            class="btn btn-warning">Subscribe</button></form>
+                    <a href="#" class="me-3"><i class="bi bi-facebook"></i></a><a href="#" class="me-3"><i
+                            class="bi bi-twitter-x"></i></a><a href="#" class="me-3"><i class="bi bi-youtube"></i></a><a
+                        href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy">&copy; 2026 CodeNagar. All rights reserved.</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

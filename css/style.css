@@ -1,0 +1,167 @@
+body {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+    color: #1c2b36
+}
+
+a {
+    color: #0f7f86
+}
+
+.topbar {
+    background: #12263a;
+    color: #cfe0ea;
+    font-size: .85rem
+}
+
+.topbar a {
+    color: #cfe0ea;
+    text-decoration: none
+}
+
+.topbar a:hover {
+    color: #f2a900
+}
+
+.main-nav {
+    background: #fff;
+    box-shadow: 0 1px 0 #dde6ec
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #12263a
+}
+
+.main-nav .nav-link {
+    font-weight: 600;
+    padding: 1rem 1.1rem;
+    color: #12263a;
+    transition: background .2s, color .2s
+}
+
+.main-nav .nav-link:hover,
+.main-nav .nav-link.active {
+    background: #12263a;
+    color: #f2a900
+}
+
+.carousel-item img {
+    width: 100%;
+    height: min(60vh, 520px);
+    object-fit: cover;
+    filter: brightness(.55)
+}
+
+.carousel-caption {
+    bottom: 20%
+}
+
+.carousel-caption h2 {
+    font-weight: 700;
+    font-size: clamp(1.6rem, 4vw, 3rem)
+}
+
+.crumb {
+    background: #12263a;
+    color: #fff;
+    padding: 2rem 0
+}
+
+.crumb h1 {
+    font-size: 2rem
+}
+
+.crumb a {
+    color: #f2a900
+}
+
+.breadcrumb-item.active,
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #cfe0ea
+}
+
+.sec {
+    padding: 3.5rem 12px
+}
+
+.band {
+    background: #eef3f6
+}
+
+.band .sec {
+    padding: 3.5rem 12px
+}
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 1.5rem
+}
+
+.icon {
+    font-size: 2.2rem;
+    color: #0f7f86
+}
+
+.card {
+    border: 1px solid #dde6ec;
+    border-radius: .5rem;
+    transition: transform .2s
+}
+
+.card:hover {
+    transform: translateY(-3px)
+}
+
+.filter label {
+    cursor: pointer
+}
+
+#f-web:checked~aside label[for=f-web],
+#f-mob:checked~aside label[for=f-mob],
+#f-ux:checked~aside label[for=f-ux],
+#f-all:checked~aside label[for=f-all] {
+    background: #12263a;
+    color: #f2a900
+}
+
+#f-web:checked~div .proj:not(.web),
+#f-mob:checked~div .proj:not(.mob),
+#f-ux:checked~div .proj:not(.ux) {
+    display: none
+}
+
+.zoom {
+    overflow: hidden;
+    cursor: zoom-in
+}
+
+.zoom img {
+    transition: transform .4s
+}
+
+.zoom:hover img {
+    transform: scale(1.4)
+}
+
+.bigfoot {
+    background: #12263a;
+    color: #cfe0ea;
+    padding: 3rem 0
+}
+
+.bigfoot a {
+    color: #cfe0ea;
+    text-decoration: none
+}
+
+.bigfoot a:hover {
+    color: #f2a900
+}
+
+.copy {
+    background: #0b1823;
+    color: #8fa6b5;
+    text-align: center;
+    padding: .8rem;
+    font-size: .85rem
+}
